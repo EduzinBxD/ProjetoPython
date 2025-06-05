@@ -1,91 +1,108 @@
 import time, os, random
 
-print("Bem vindo! Deseja começar o quiz?\nTema: DC")
+print("------------------------------------------------------------------------------------------\n")
+print("Bem vindo! Deseja começar o quiz?\nTema: DC\n")
+print("------------------------------------------------------------------------------------------\n")
 
-resposta1 = input("Digite (Sim ou Não): ")
+querIniciar = input("Digite (Sim ou Não): ")
 
-if resposta1 == "Sim":
-    print("O quiz vai começar!")
+if querIniciar == "Sim":
+    print("\n------------------------------------------------------------------------------------------\n")
+    print("O quiz vai começar!\n")
 else:
     os.system(exit)
 
-#Pergunta 1:
-print("Primeira Pergunta: Qual o nome do Batman?\n(A) Bruce Williams\n(B) Bruce Banner\n(C) Bruce Wayne\n(D) Clark Kent")
+#Pergunta 1
+print("------------------------------------------------------------------------------------------\n")
+print("1) Qual o nome do Batman?\n\n(A) Bruce Williams\n(B) Bruce Banner\n(C) Bruce Wayne\n(D) Clark Kent\n")
+resposta1 = input("Digite sua resposta: ")
+
+if resposta1 == "C":
+    print("\nResposta correta!\n")
+else:
+    print("\nResposta incorreta!\n")
+
+#Pergunta 2
+print("------------------------------------------------------------------------------------------\n")
+print("2) Qual vilão é conhecido como o 'Príncipe Palhaço do Crime'\n\n(A)Lex Luthor\n(B)Coringa\n(C)Pinguim\n(D)Exterminador\n")
 resposta2 = input("Digite sua resposta: ")
-
-if resposta2 == "C":
-    print("Resposta correta!")
-else:
-    print("Resposta incorreta!")
-
-#pergunta 2
-print("Qual vilão é conhecido como o 'Príncipe Palhaço do Crime'\n(A)Lex Luthor\n(B)Coringa\n(C)Pinguim\n(D)Exterminador")
-resposta3 = input("Digite sua resposta: ")
 if resposta2 == "B":
-    print("Resposta correta!")
+    print("\nResposta correta!\n")
 else:
-    print("Resposta incorreta!")
+    print("\nResposta incorreta!\n")
     
-    #pergunta 3
-print("De qual planeta a Mulher-Maravilha é originária?\n(A)Krypton\n(B)Themyscira\n(C)Oa\n(D)Apokolips")
-resposta3 = input("digite sua resposta")
-if resposta2 == "B":
-    print("Resposta correta!")
+#Pergunta 3
+print("------------------------------------------------------------------------------------------\n")
+print("3) De qual planeta a Mulher-Maravilha é originária?\n\n(A)Krypton\n(B)Themyscira\n(C)Oa\n(D)Apokolips\n")
+resposta3 = input("Digite sua resposta: ")
+if resposta3 == "B":
+    print("\nResposta correta!\n")
 else:
-    print("Resposta incorreta!")
+    print("\nResposta incorreta!\n")
 
-#pergunta 4
-print("Em qual história o Superman morre lutando contra o Monstro Doomsday?\n(A)Crise nas Infinitas Terras\n(B)A Morte do Superman\n(C)Batman: Cavaleiro das Trevas\n(D)Injustiça: Deuses Entre Nos")
-resposta4 = input("digite sua resposta")
-if resposta2 == "B":
-    print("Resposta correta!")
+#Pergunta 4
+print("------------------------------------------------------------------------------------------\n")
+print("4) Em qual história o Superman morre lutando contra o Monstro Doomsday?\n\n(A)Crise nas Infinitas Terras\n(B)A Morte do Superman\n(C)Batman: Cavaleiro das Trevas\n(D)Injustiça: Deuses Entre Nos\n")
+resposta4 = input("Digite sua resposta: ")
+if resposta4 == "B":
+    print("\nResposta correta!\n")
 else:
-    print("Resposta incorreta!")
+    print("\nResposta incorreta!\n")
 
-    #pergunta 5
-print("Qual arqueiro se tornou líder da Liga da Justiça em algumas versões?\n(A)Arqueiro Verde (Oliver Queen)\n(B) Arqueiro Vermelho (Roy Harper)\n(C)Gavião Negro (Carter Hall)\n(D)Esquadrão Suicida")
-resposta5 = input("digite sua resposta")
-if resposta5 == "A" or "a":
-    print("Resposta correta!")
+#Pergunta 5
+print("------------------------------------------------------------------------------------------\n")
+print("5) Qual arqueiro se tornou líder da Liga da Justiça em algumas versões?\n\n(A)Arqueiro Verde (Oliver Queen)\n(B) Arqueiro Vermelho (Roy Harper)\n(C)Gavião Negro (Carter Hall)\n(D)Esquadrão Suicida\n")
+resposta5 = input("Digite sua resposta: ")
+if resposta5 == "A":
+    print("\nResposta correta!\n")
 else:
-    print("Resposta incorreta!")
+    print("\nResposta incorreta!\n")
 
-    #pergunta 6
-    print("Quem interpretou o Batman nos filmes de Christopher Nolan?\n(A)Ben Affleck\n(B)Christian Bale\n(C)Michael Keaton\n(D)Robert Pattinson")
-    resposta6 = input("digite sua resposta")
-    if resposta6 == "B" or "b"
-    print("resposta correta!")
+#Pergunta 6
+print("------------------------------------------------------------------------------------------\n")
+print("6) Quem interpretou o Batman nos filmes de Christopher Nolan?\n\n(A)Ben Affleck\n(B)Christian Bale\n(C)Michael Keaton\n(D)Robert Pattinson\n")
+resposta6 = input("Digite sua resposta: ")
+if resposta6 == "B":
+    print("\nResposta correta!\n")
 else:
-print("resposta incorreta!")
+    print("\nResposta incorreta!\n")
 
 #pergunta 7
-print("Quem é o Flash mais rápido de todos os tempos?\n(A)Barry Allen\n(B)Wally West\n(C)Jay Garrick\n(D)Savitar")
- resposta7 = input("digite sua resposta")
-    if resposta7 == "B" or "b":
-    print("resposta correta!")
+print("------------------------------------------------------------------------------------------\n")
+print("7) Quem é o Flash mais rápido de todos os tempos?\n\n(A)Barry Allen\n(B)Wally West\n(C)Jay Garrick\n(D)Savitar\n")
+resposta7 = input("Digite sua resposta: ")
+if resposta7 == "B":
+    print("\nResposta correta!\n")
 else:
-print("resposta incorreta!")
+    print("\nResposta incorreta!\n")
 
-#pergunta 8
-print("Qual vilão é conhecido por roubar a velocidade dos outros?\n(A)Zoom (Hunter Zolomon)\n(B)Capitão Frio\n(C)Flash Reverso(D)Gorila Grodd")
-resposta8 = input("digite sua resposta")
-if resposta8 == "A" or "a":
-    print("resposta correta!")
+#Pergunta 8
+print("------------------------------------------------------------------------------------------\n")
+print("8) Qual vilão é conhecido por roubar a velocidade dos outros?\n\n(A)Zoom (Hunter Zolomon)\n(B)Capitão Frio\n(C)Flash Reverso\n(D)Gorila Grodd\n")
+resposta8 = input("Digite sua resposta: ")
+if resposta8 == "A":
+    print("\nResposta correta!\n")
 else:
-print("resposta incorreta!")
+    print("\nResposta incorreta!\n")
 
-#pergunta 9
-print("Qual é a principal fraqueza do Superman?\n(A)Magia\n(B)Kryptonita(C)Chumbo\n(D)Água")
-resposta6 = input("digite sua resposta")
-    if resposta9 == "B" or "b":
-    print("resposta correta!")
+#Pergunta 9
+print("------------------------------------------------------------------------------------------\n")
+print("9) Qual é a principal fraqueza do Superman?\n\n(A)Magia\n(B)Kryptonita\n(C)Chumbo\n(D)Água\n")
+resposta9 = input("Digite sua resposta: ")
+if resposta9 == "B":
+    print("\nResposta correta!\n")
 else:
-print("resposta incorreta!")
+    print("\nResposta incorreta!\n")
 
-#pergunta 10
-print("Qual desses personagens NÃO é kryptoniano?\n(A)Supergirl\n(B)General Zod\n(C)Power Girl\n(D)Martian Manhunter")
-resposta6 = input("digite sua resposta")
-if resposta10 == "D" or "d":
-    print("Resposta correta!")
+#Pergunta 10
+print("------------------------------------------------------------------------------------------\n")
+print("10) Qual desses personagens NÃO é kryptoniano?\n\n(A)Supergirl\n(B)General Zod\n(C)Power Girl\n(D)Martian Manhunter\n")
+resposta10 = input("Digite sua resposta: ")
+if resposta10 == "D":
+    print("\nResposta correta!\n")
 else:
-    print("Resposta incorreta!")
+    print("\nResposta incorreta!\n")
+
+print("------------------------------------------------------------------------------------------\n")
+
+input("Tecle Enter para sair...")
