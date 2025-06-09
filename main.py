@@ -14,8 +14,9 @@ def checarResposta(respostaCorreta, scoreAtual):
     score = globalScore
 
     if resposta == respostaCorreta:
-        score += 1
-        print(f"\nPontuação: {score}\n")
+        score = score + 1
+
+        print("\nScore: " + str(score) +"\n")
         print("Resposta correta!\n")
     else:
         print(f"\Pontuação: {score}")
