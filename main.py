@@ -6,11 +6,14 @@ print("-------------------------------------------------------------------------
 
 querIniciar = input("Digite (Sim ou Não): ")
 
+
+
 def checarResposta(respostaCorreta):
     resposta = input("Digite sua resposta: ")
 
     if resposta == respostaCorreta:
         print("\nResposta correta!\n")
+    
     else:
         print("\nResposta incorreta! (Resposta Correta: " + respostaCorreta + ")\n")
 
