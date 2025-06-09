@@ -16,11 +16,11 @@ def checarResposta(respostaCorreta, scoreAtual):
     if resposta == respostaCorreta:
         score = score + 1
 
-        print(f"\nPontução: {score}")
+        print(f"\nPontução: {score}\n")
         print("Resposta correta!\n")
     else:
-        print(f"\nPontuação: {score}")
-        print("\nResposta incorreta! (Resposta Correta: " + respostaCorreta + ")\n")
+        print(f"\nPontuação: {score}\n")
+        print("Resposta incorreta! (Resposta Correta: " + respostaCorreta + ")\n")
 
     return score
 
