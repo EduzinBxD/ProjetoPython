@@ -9,12 +9,23 @@ querIniciar = input("Digite (Sim ou Não): ")
 
 
 def checarResposta(respostaCorreta):
+
+    score = 0
+
     resposta = input("Digite sua resposta: ")
 
     if resposta == respostaCorreta:
+<<<<<<< HEAD
         print("\nResposta correta!\n")
     
+=======
+        score = score + 1
+
+        print("\nScore: " + str(score) +"\n")
+        print("Resposta correta!\n")
+>>>>>>> 30e22ea711e5c16c2ce37c194e6795daa784471b
     else:
+        print("\nScore: " + score +"\n")
         print("\nResposta incorreta! (Resposta Correta: " + respostaCorreta + ")\n")
 
 if querIniciar == "Sim":
