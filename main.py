@@ -25,7 +25,7 @@ def checarResposta(respostaCorreta):
         print("Resposta correta!\n")
 >>>>>>> 30e22ea711e5c16c2ce37c194e6795daa784471b
     else:
-        print("\nScore: " + score +"\n")
+        print("\nScore: " + str(score) +"\n")
         print("\nResposta incorreta! (Resposta Correta: " + respostaCorreta + ")\n")
 
 if querIniciar == "Sim":
