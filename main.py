@@ -18,7 +18,7 @@ def checarResposta(respostaCorreta):
         print("\nScore: " + str(score) +"\n")
         print("Resposta correta!\n")
     else:
-        print("\nScore: " + score +"\n")
+        print("\nScore: " + str(score) +"\n")
         print("\nResposta incorreta! (Resposta Correta: " + respostaCorreta + ")\n")
 
 if querIniciar == "Sim":
