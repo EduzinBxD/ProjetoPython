@@ -93,61 +93,61 @@ globalScore = checarResposta("D", globalScore)
 
 #Pergunta 11
 print("------------------------------------------------------------------------------------------\n")
-print("0) Template?\n\n(A) Null\n(B) Null\n(C) Null\n(D) Null\n")
-# Resposta é D
-globalScore = checarResposta("D", globalScore)
+print("11) Quem matou os pais de Bruce Wayne?\n\n(A) Joe Chill\n(B) Coringa\n(C) Pinguim\n(D) Carmine Falcone\n")
+# Resposta é A
+globalScore = checarResposta("A", globalScore)
 
 #Pergunta 12
 print("------------------------------------------------------------------------------------------\n")
-print("0) Template?\n\n(A) Null\n(B) Null\n(C) Null\n(D) Null\n")
-# Resposta é D
-globalScore = checarResposta("D", globalScore)
+print("12) Em que quadrinho a Liga da Justiça foi formada pela primeira vez?\n\n(A) Justice League #1 (1987)\n(B) Justice League of America #1 (1960)\n(C) Crisis on Infinite Earths #1\n(D) DC Universe Rebirth #1\n")
+# Resposta é B
+globalScore = checarResposta("B", globalScore)
 
 #Pergunta 13
 print("------------------------------------------------------------------------------------------\n")
-print("0) Template?\n\n(A) Null\n(B) Null\n(C) Null\n(D) Null\n")
-# Resposta é D
-globalScore = checarResposta("D", globalScore)
+print("13) Qual heroína é conhecida como Princesa das Amazonas?\n\n(A) Supergirl\n(B) Zatanna\n(C) Mullher-Maravilha\n(D) Hera Venenosa\n")
+# Resposta é C
+globalScore = checarResposta("C", globalScore)
 
 #Pergunta 14
 print("------------------------------------------------------------------------------------------\n")
-print("0) Template?\n\n(A) Null\n(B) Null\n(C) Null\n(D) Null\n")
-# Resposta é D
-globalScore = checarResposta("D", globalScore)
+print("14) Qual é o nome da cidade protegida pelo Superman?\n\n(A) Gotham City\n(B) Central City\n(C) Metrópolis\n(D) Star City\n")
+# Resposta é C
+globalScore = checarResposta("C", globalScore)
 
 #Pergunta 15
 print("------------------------------------------------------------------------------------------\n")
-print("0) Template?\n\n(A) Null\n(B) Null\n(C) Null\n(D) Null\n")
-# Resposta é D
-globalScore = checarResposta("D", globalScore)
+print("15) Qual membro da Liga da Justiça tem um anel com poderes construídos pela força de vontade?\n\n(A) Lanterna Verde\n(B) Aquaman\n(C) Shazam\n(D) Flash\n")
+# Resposta é A
+globalScore = checarResposta("A", globalScore)
 
 #Pergunta 16
 print("------------------------------------------------------------------------------------------\n")
-print("0) Template?\n\n(A) Null\n(B) Null\n(C) Null\n(D) Null\n")
+print("16) Quem é o alter ego do Flash mais conhecido?\n\n(A) Wally West\n(B) Jay Garrick\n(C) Bart Allen\n(D) Barry Allen\n")
 # Resposta é D
 globalScore = checarResposta("D", globalScore)
 
 #Pergunta 17
 print("------------------------------------------------------------------------------------------\n")
-print("0) Template?\n\n(A) Null\n(B) Null\n(C) Null\n(D) Null\n")
+print("17) Qual herói da DC é conhecido por conversar com animais marinhos?\n\n(A) Superman\n(B) Ciborgue\n(C) Batman\n(D) Aquaman\n")
 # Resposta é D
 globalScore = checarResposta("D", globalScore)
 
 #Pergunta 18
 print("------------------------------------------------------------------------------------------\n")
-print("0) Template?\n\n(A) Null\n(B) Null\n(C) Null\n(D) Null\n")
-# Resposta é D
-globalScore = checarResposta("D", globalScore)
+print("18) Quem é a parceira e interesse romântico recorrente do Coringa?\n\n(A) Mulher-Gato\n(B) Arlequina\n(C) Hera Venenosa\n(D) Zatanna\n")
+# Resposta é B
+globalScore = checarResposta("B", globalScore)
 
 #Pergunta 19
 print("------------------------------------------------------------------------------------------\n")
-print("0) Template?\n\n(A) Null\n(B) Null\n(C) Null\n(D) Null\n")
-# Resposta é D
-globalScore = checarResposta("D", globalScore)
+print("19) Quem foi o segundo Robin?\n\n(A) Tim Drake\n(B) Jason Todd\n(C) Damian Wayne\n(D) Terry McGinnis\n")
+# Resposta é B
+globalScore = checarResposta("B", globalScore)
 
 #Pergunta 20
 print("------------------------------------------------------------------------------------------\n")
-print("0) Template?\n\n(A) Null\n(B) Null\n(C) Null\n(D) Null\n")
+print("20) Qual é o nome do planeta natal do Superman?\n\n(A) Marte\n(B) Oa\n(C) Apokolips\n(D) Krypton\n")
 # Resposta é D
 globalScore = checarResposta("D", globalScore)
 
